@@ -1,0 +1,198 @@
+/*MOBILE LAYOUT*/
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300|Mandali|Fredericka+the+Great');
+body{
+  font-family: "Mandali";
+  margin:0;
+}
+header{
+  background-image: url("picture/background-blank-empty-62693.jpg");
+  background-position: center;
+  background-size: cover;
+}
+header h1{
+  font-family: "Barlow Semi Condensed";
+  font-size: 260%;
+  color: black;
+  text-align: center;
+  letter-spacing: 8px;
+  padding-top: 15%;
+  margin: 0;
+}
+header p{
+  text-align: center;
+  font-size: 120%;
+  font-style: italic;
+  margin-top: 0;
+}
+header ul{
+  margin-top: 10%;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+header li{
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+header a{
+  color: black;
+  text-decoration: none;
+}
+
+h2{
+  font-family: "Fredericka the Great";
+  font-size: 175%;
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+}
+
+#Edu{
+  background-image: url("picture/adrien-olichon-762125-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+#Edu ol{
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+#soft-skill{
+  background-image: url("picture/background-close-up-color-941551.jpg");
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+#soft-skill .content {
+  padding: 0 50px 0 50px;
+}
+
+#Skills{
+  background-image: url("picture/tobias-van-schneider-88137-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+#Skills ul{
+  list-style-type: none;
+  text-align: center;
+  padding:0 50px 0 50px;
+}
+#Skills .add_bottom_border{
+  border-bottom: 1px dotted white;
+}
+
+#Interest{
+  background-image: url("picture/background-cement-concrete-242236.jpg");
+  background-position: center;
+  background-size: cover;
+  color:black;
+}
+#Interest img{
+  width: 100%;
+  padding: 10px 10px 0 10px;
+  box-sizing: border-box;
+}
+#Interest .text{
+  padding: 0 20px 0 20px;
+}
+#Interest .src{
+  font-size: 70%;
+  margin-top:0;
+  margin-left: 10px;
+}
+
+footer{
+  background-image: url("picture/josh-rose-506979-unsplash.jpg");
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+footer ul{
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+footer a{
+  color: white;
+}
+
+.fa-creative-commons-pd-alt{
+  color: brown;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 700px){
+.wrapper{
+  max-width: 1000px;
+  margin:auto;
+}
+header li{
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+header ul{
+  margin-top: 5%;
+}
+header h1{
+  padding-top: 5%;
+  font-size: 400%;
+  letter-spacing: 10px;
+}
+#soft-skill .content{
+  border-top: 3px dotted black;
+  border-bottom: 3px dotted black;
+}
+#soft-skill .left{
+  float: left;
+  width:50%;
+}
+#soft-skill .right{
+  margin-left: 50%;
+  padding-left: 45px;
+  border-left: 3px dotted black;
+}
+#soft-skill h3{
+  margin:0;
+}
+#Skills li{
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+
+  margin-bottom: 15px;
+}
+#Skills .addborder{
+  border-right: 1px solid white;
+  border-bottom: none;
+}
+
+#Skills .add_bottom_border{
+  border-bottom: none;
+}
+
+#Interest img{
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+#Interest p{
+  margin: 0;
+}
+#Interest a{
+clear: both;
+}
+footer li{
+  display: inline-block;
+  padding: 0 40px 0 40px;
+}
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
